@@ -1,0 +1,53 @@
+{
+  "name": "@wadleun2ty/commitum",
+  "version": "1.0.0",
+  "description": "Local AI-powered Git commit message generator with seamless Git hooks integration. Uses Ollama + deepsheek-coder-v2 for instant, professional results.",
+  "homepage": "https://github.com/wadleun2ty/commitum#readme",
+  "bugs": {
+    "url": "https://github.com/wadleun2ty/commitum/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wadleun2ty/commitum.git"
+  },
+  "license": "GPL-3.0",
+  "author": "wAdlEun2ty",
+  "type": "module",
+  "main": "bin/commitum.js",
+  "bin": {
+    "commitum": "bin/commitum.js"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "commit-message",
+    "ai",
+    "ollama",
+    "deepsheek",
+    "git-hook",
+    "cli",
+    "developer-tools",
+    "automation",
+    "offline"
+  ],
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=24.5.0"
+  },
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.3.2"
+  }
+}
